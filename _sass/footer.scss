@@ -1,0 +1,141 @@
+// footer scss
+.footer-1 {
+	background-color: #fff;
+	color: #006798;
+	font-size: 14px;
+	font-weight: bold;
+  padding: 0 20px;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+
+    &:hover {
+      opacity: 0.7;
+    }
+  }
+
+  .line {
+    width: auto;
+    height: 2px;
+    background: #49a7c7;
+    display: block;
+  }
+
+  .footer-icon {
+
+    img {
+      padding-right: 4px;
+    }
+  }
+
+  ul {
+    list-style: none;
+    text-align: left;
+    padding: 4px 0;
+
+    li {
+      padding: 4px 0;
+      font-weight: 600;
+    }
+
+    @media (min-width: 576px) {
+      column-count: 3;
+    }
+  }
+
+  .footer-1-apoio {
+    @media (min-width: 576px) {
+      display: flex;
+
+      .p-img {
+        padding-top: 10px;
+      }
+
+      h6 {
+        padding-top: 17px;
+        margin-right: 8px;
+      }
+    }
+  }
+
+  .pdl {
+    @media (min-width: 576px) {
+      li {
+        width: min-content;
+        white-space: nowrap;
+
+        &::before {
+          content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+          color: inherit;
+          margin-right: 3rem;
+          font-weight: normal; /* If you want it to be bold */
+          display: inline-block; /* Needed to add space between the bullet and the text */ 
+          width: 1em; /* Also needed for space (tweak if needed) */
+        }
+
+        &:first-child::before {
+          display: none;
+        }
+      }
+
+      column-count: 4;
+      display: flex;
+      justify-content: space-around;
+    }
+  }
+}
+
+.line-footer .row>* {
+  padding-right: 0; 
+  padding-left: 0;
+}
+
+.line-footer {
+	content: '';
+  width: auto;
+  height: 2px;
+  background: #49a7c7 ;
+  display: block;
+  margin: 0 1rem 1rem 1rem;
+}
+
+.footer-2 {
+	background-color: #3EAECE;
+	color: #bde5ff;
+}
+
+.footer-2 p {
+  color: #fff;
+	font-weight: bold;
+	font-size: .8rem;
+	text-align: center;
+	padding: 10px 0;
+	margin-bottom: 0;
+  margin-bottom: 0rem;
+}
+
+@media (min-width: 414px) {
+  .footer-2 p {
+    font-size: .9rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .footer-1,
+  .footer-2 p{
+    font-size: 1rem;
+  } 
+}
+
+@media (min-width: 576px) {
+  .d-div {
+    display: flex;
+    justify-content: center;
+  }
+
+  .unregister {
+    display: flex;
+    justify-content: end;
+  }
+}

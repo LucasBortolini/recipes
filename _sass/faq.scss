@@ -1,0 +1,41 @@
+// faq scss
+.faq {
+  border-bottom: solid 3px #3EAECE;
+
+  h1{
+    font-size: 24px;
+    color: #57C5FE;
+  }
+
+  .card {
+    .card-body {
+      opacity: 0.6;
+    }
+  }
+
+  .card-header {
+    background-color: white;
+    border-bottom: none;
+    
+    &:hover {
+      cursor: pointer;
+    }
+
+    img {
+      height: 28px;
+    }
+
+    &:not(.collapsed) {
+      img {
+        -webkit-transform: rotate(180deg);
+        -moz-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+    }
+  }
+}
+
+#border {
+  border-bottom: 4px solid rgba(87,197,254,0.97);
+  width: 25%;
+}

@@ -1,0 +1,100 @@
+.reminder {
+  background-color: #51BFFE;
+
+  h1 {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  h4 {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  img {
+    width: 120px;
+  }
+
+  p {
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+  }
+
+  label, h2 {
+    color: white;
+    font-size: 14px;
+  }
+
+  .input-whats {
+    height: auto !important;
+  }
+
+  input.code-field::placeholder {
+    text-align: center;
+    color: #FF9E72;
+  }
+
+  .color-btn-reminder {
+    background-color: #FF9E72;
+    border-bottom-color: #FF9E72;
+    border: none;
+  }
+
+  .reminder-img {
+    transform: translate(15%);
+  }
+
+  .icons {
+    width: 50px !important;
+  }
+
+  .toggle-wrapper {
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: 576px) {
+    .btn-edit-register {
+      width: 50%;
+    }
+
+    .btn-ok {
+      width: 50%;
+    }
+
+    .padding-btn {
+      padding: 0px 120px;
+    }
+
+    .toggle-wrapper {
+      flex-wrap: nowrap;
+    }
+  }
+}
+
+.glass {
+  width: 36px !important;
+}
+
+.input-btn {
+  background-color: #AAA163 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.input-ok {
+  background-color: #2FAB6E !important;
+  color: white !important;
+}

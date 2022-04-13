@@ -1,0 +1,22 @@
+// quem somos scss
+.who-we {
+  background-color: #61c7fd;
+  text-align: center;
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+.text-who {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+
+@media (min-width: 576px){
+  .text-who {
+    padding-left: 150px;
+    padding-right: 150px;
+  }
+}

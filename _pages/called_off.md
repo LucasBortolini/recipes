@@ -1,0 +1,15 @@
+---
+layout: default
+permalink: /cancelado
+link: /home
+---
+
+<!-- tela de retorno de cancelamento de cadastro -->
+<div class="habits cancel text-center py-5">
+  <h1 class="text-center px-5">
+    Descadastrado com Sucesso!
+  </h1>
+  <div class="text-center pt-3">
+    <a href="{{ page.link | relative_url }}" class="text-white">Voltar</a>
+  </div>
+</div>

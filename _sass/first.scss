@@ -1,0 +1,42 @@
+// familia tomando agua scss
+.habits {
+  background-color: #F6F6F6;
+  color: #00377A;
+  margin-top: -26px !important;
+  border-top: 4px solid #2dd7fc;
+}
+
+.text-first {
+  color: #006798 !important;
+  padding-left: 4rem;
+}
+
+.img-wrapper {
+  h2 {
+    font-size: 14px;
+
+    @media (min-width: 576px) {
+      font-size: 14px;
+    }
+  }
+}
+
+@media (min-width: 576px) {
+  .r-first {
+    display: flex;
+    justify-content: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+
+    h2 {
+      max-width: 576px;
+      margin-top: 0 !important;
+      padding-right: 1rem !important;
+    }
+
+    .img-wrapper {
+      width: 100%;
+      max-width: 576px;
+    }
+  }
+}

@@ -1,0 +1,24 @@
+title: Beba Água
+tagline:
+logo:
+description: >-
+baseurl: /drink-water
+url: freemium.com.br
+lang: pt-br
+theme: minima
+author:
+  - name: Lucas Sales
+    url: http://github.com/LucasBortolini
+plugins:
+  - jekyll-postcss
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-coffeescript
+sass:
+  sourcemap: never
+postcss:
+  cache: false
+collections:
+  pages:
+    output: true

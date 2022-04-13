@@ -1,0 +1,55 @@
+// cadastro scss
+.register-2 {
+	background-color: #51BFFE;
+
+	h1 {
+		font-size: 18px;
+		font-weight: bold;
+		color: #00377A;
+		text-align: center;
+	}
+
+	p {
+		font-size: 16px;
+		text-align: center;
+		font-weight: bold;
+		color: #fff;
+	}
+
+	.input-form {
+		@media (min-width: 995px) {
+			padding-left: 260px !important;
+			padding-right: 260px !important;
+		}
+
+		@media (min-width: 1080px) {
+			padding-left: 240px !important;
+			padding-right: 240px !important;
+		}
+
+	}
+
+	.w-btn {
+		height: 40px !important;
+		@media (min-width: 576px) {
+			margin-left: 130px;
+			margin-right: 130px;
+		}
+
+		@media (min-width: 660px) {
+			margin-left: 200px;
+			margin-right: 200px;
+		}
+
+		@media (min-width: 820px) {
+			margin-left: 250px;
+			margin-right: 250px;
+		}
+
+		@media (min-width: 1080px) {
+			margin-left: 390px;
+			margin-right: 390px;
+			height: 40px !important;
+		}
+	}
+}

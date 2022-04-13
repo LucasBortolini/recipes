@@ -1,0 +1,30 @@
+<header class="navbar sticky-top blue-header">
+	<div class="header-line">
+		<div class="header-wrapper">
+			<div class="header-form">
+				<div class="d-flex justify-content-between py-1">
+					<ins class="d-flex flex-row-reverse text-decoration-none">
+						<a href="{{ '/esqueci-minha-senha' | relative_url }}" class="small link-white text-decoration-none">
+							Esqueci minha senha
+						</a>
+					</ins>
+					<ins class="d-flex flex-row-reverse">
+						<a href="{{ '/cadastro' | relative_url }}" class="small link-white">
+							Não sou cadastrado
+						</a>
+					</ins>
+				</div>
+				<div class="input-group row d-flex justify-content-between mx-auto mb-3">
+					<input type="tel" name="whats" id="whats" maxlength="15" class="col form-control shadow-none mr-2 rounded" required placeholder="whatsapp"></input>
+					<input type="password" class="col form-control shadow-none mr-2 rounded" required placeholder="senha"></input>
+					<input type="submit" class="form-control col btn" value="Entrar"/>
+				</div>
+			</div>
+			<div class="d-flex align-items-center justify-content-center header-margin">
+				<a href="/">
+					<img src="{{ 'assets/images/logo.png'  | relative_url }}">
+				</a>
+			</div>
+		</div>
+	</div>
+</header>

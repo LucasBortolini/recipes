@@ -1,0 +1,28 @@
+---
+layout: base
+---
+
+{%- include header.html -%}
+{%- include cards.md -%}
+{%- include fifth.html -%}
+{%- include blog.html -%}
+{%- include seventh.html -%}
+{%- include footer.html -%}
+
+
+<section class="myModal-wrapper">
+  <div class="myModal">
+    <img src="{{ page.image | relative_url }}" class="header-image {% if page.url != '/' %} small {% endif %}">
+    <h1 class="header-title">{{ page.title }}</h1>
+    <p class="text px-2 mb-1">
+      {{ page.text }}
+    </p>
+
+    {{ content }}
+  </div>
+  <a class="close" href="{{ '/home' | relative_url }}">
+    <button type="button" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </a>
+</section>

@@ -1,0 +1,114 @@
+// form scss
+.fourth {
+  background: rgb(20,198,250);
+  background: linear-gradient(180deg, rgba(20,198,250,1) 0%, rgba(98,216,251,1) 100%, rgba(167,231,248,1) 100%);
+
+  h1 {
+    font-size: 22px;
+  }
+
+  h2 {
+    color: #008dce;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  input {
+    height: 38px !important;
+  }
+
+  .input-group.submit {
+    input.form-control {
+      &.btn {
+        height: 44px;
+        border-radius: 14px;
+        font-weight: bold;
+      }
+    }
+
+    @media (min-width: 576px) {
+      width: 80%;
+      margin: auto;
+    }
+  }
+
+  .section-wrapper {
+    .form-wrapper {
+      justify-content: center;
+
+      .col-6 {
+        &:nth-child(n), &:nth-child(3n) {
+          padding-left: 0 !important;
+          padding-right: 4px !important;
+        }
+
+        &:nth-child(2n) {
+          padding-left: 4px !important;
+          padding-right: 0 !important;
+        }
+
+        @media (min-width: 576px) {
+          flex: 0 0 25%;
+          max-width: 25%;
+          padding-right: 8px !important;
+          padding-left: 0px !important;
+
+          &:nth-child(2n) {
+            padding-left: 4px !important;
+            padding-right: 4px !important;
+          }
+
+          &:nth-child(3n) {
+            padding-left: 4px !important;
+            padding-right: 4px !important;
+          }
+
+          &:nth-child(4n) {
+            padding-left: 4px !important;
+            padding-right: 0 !important;
+          }
+        }
+      }
+
+      .col-4 {
+        &:nth-child(3n) {
+          padding-left: 0 !important;
+          padding-right: 4px !important;
+        }
+
+        &:nth-child(7n) {
+          padding-left: 4px !important;
+          padding-right: 4px !important;
+        }
+
+        &:nth-child(4n) {
+          padding-left: 4px !important;
+          padding-right: 0 !important;
+        }
+
+        @media (min-width: 576px) {
+          flex: 0 0 25%;
+          max-width: 25%;
+
+          &:nth-child(3n) {
+            margin-left: 10%;
+          }
+
+          &:last-child {
+            margin-right: 10%;
+          }
+        }
+      }
+
+      .col-4, .col-6 {
+        .input-group {
+          @media (min-width: 576px) {
+            margin-right: 0;
+            margin-left: 0;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,63 @@
+// animação tomando água scss
+section.second {
+  background: rgb(100,216,243);
+  background: linear-gradient(rgba(100,216,243,1), rgba(178,233,248,0.9));
+  padding: 24px 40px 0px 4px;
+
+  .section-wrapper {
+    img.drinking {
+      margin-top: -10%;
+      z-index: 5;
+
+      @media (min-width: 576px) {
+        max-height: 100%;
+        width: auto !important;
+      }
+    }
+  }
+
+  p {
+    color: #006798;
+    font-size: 14px;
+    padding-top: 52px;
+    margin-bottom: 19px !important;
+
+    @media (min-width: 576px) {
+      padding-top: 15px;
+    }
+
+    &.large {
+      font-size: 20px;
+    }
+
+    @media (min-width: 576px) {
+      font-size: 14px;
+
+      &.large {
+        font-size: 16px;;
+      }
+    }
+  }
+
+  h4 {
+    padding-top: 8px;
+    margin-bottom: 24px;
+    font-size: 20px;
+    color: #059CE1;
+
+    @media (min-width: 576px) {
+      padding-top: 0;
+      margin-bottom: 8px;
+      font-size: 18px;
+    }
+  }
+
+  .gotas {
+    margin: 0 16px 24px 24px;
+
+    @media (min-width: 576px) {
+      margin: 8px 8px 16px;
+    }
+  }
+}
+

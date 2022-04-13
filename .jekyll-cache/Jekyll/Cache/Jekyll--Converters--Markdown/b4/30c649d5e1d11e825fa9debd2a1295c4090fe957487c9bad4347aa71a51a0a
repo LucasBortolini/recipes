@@ -1,0 +1,135 @@
+I"�#<!-- página de política de privacidade -->
+<div class="who-we d-flex justify-content-center">
+  <div>
+    <h1 class="pt-4">
+      Política de Privacidade
+    </h1>
+    <p class="text-who">
+     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. 
+    </p>
+  </div>
+</div>
+<!-- faq -->
+<section class="faq">
+  <div class="section-wrapper pb-3">
+    <div class="px-3 pb-5">
+      <h1 class="pt-4 pb-2 text-uppercase font-weight-bold">
+        perguntas frequentes
+      </h1>
+      <div id="border"></div>
+    </div>
+    <div id="accordion">
+      <div class="card">
+        <a id="headingOne" class="card-header d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Qual a importância de beber água?
+          <img src="/assets/images/chevron-down.svg" class="flex self-center" />
+        </a>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            Todas as células do nosso corpo precisam de água para se manterem protegidas e hidratadas, ela ajuda os órgãos a absorverem os nutrientes necessários, ajuda no metabolismo, e hidratada até nossas articulações. 
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <a id="headingTwo" class="card-header d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+          Por que precisamos tomar água todos os dias?
+          <img src="/assets/images/chevron-down.svg" class="flex self-center" />
+        </a>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            O corpo humano não possui a capacidade de armazenar a quantidade necessária de água para nos manter saudável, além disso nosso corpo perde água diariamente através da transpiração, respiração, urina, e outras atividades para manter seu funcionamento. Por isso a necessidade de água para repor o que perdemos diariamente.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <a id="headingThree" class="card-header d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+          Temos que esperar ter sede para beber água?
+          <img src="/assets/images/chevron-down.svg" class="flex self-center" />
+        </a>
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            Muitas pessoas esperam sentir sede para beber água, porém a sede é um sinal de que o organismo está com menos líquidos do que o necessário para seu bom funcionamento, por isso tome água ao longo do dia, e não apenas quando sentir sede.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <a id="headingFour" class="card-header d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+          O que a falta de água pode causar?
+          <img src="/assets/images/chevron-down.svg" class="flex self-center" />
+        </a>
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            A falta de água pode causar sintomas como fadiga, fraqueza, dor de cabeça, tontura, pode até diminuir a quantidade de sangue no nosso corpo, acarretando em problemas no coração, e a longo prazo não ingerir água pode levar a desidratação, e a morte.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <a id="headingFive" class="card-header d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseFive" aria-expanded="true" aria-controls="collapseFive">
+          Tomar água ajuda a eliminar toxinas do corpo?
+          <img src="/assets/images/chevron-down.svg" class="flex self-center" />
+        </a>
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+          <div class="card-body">
+            Tomar água estimula idas ao banheiro, tanto para urinar quanto defecar, auxiliando na liberação de substância que precisam ser eliminadas pelo corpo. Além disso ajuda na respiração ao diluir o muco, ajudando a expectoração de resíduos no pulmão.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <a id="headingSix" class="card-header d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseSix" aria-expanded="true" aria-controls="collapseSix">
+          Por que tomar água evita infecções urinárias?
+          <img src="/assets/images/chevron-down.svg" class="flex self-center" />
+        </a>
+        <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion">
+          <div class="card-body">
+            Tomar água estimula idas ao banheiro, isso ajuda a limpar o trato urinário, evitando que micro-organismos, como bactérias, se alojem no trato urinário e possam gerar infecções, que podem gerar uretrite, cistite, ou pielonefrite, atingindo uretra, bexiga, e rins.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <a id="headingSeven" class="card-header d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="true" aria-controls="collapseSeven">
+          Você sabia que a melhor skin care é tomar água?
+          <img src="/assets/images/chevron-down.svg" class="flex self-center" />
+        </a>
+        <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion">
+          <div class="card-body">
+            Quando tomamos água as células e mucosas se revitalizam, assim a pele se hidrata de dentro para fora, evitando o ressecamento e a descamação.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <a id="headingEight" class="card-header d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseEight" aria-expanded="true" aria-controls="collapseEight">
+          Qual a quantidade de água que devemos ingerir por dia?
+          <img src="/assets/images/chevron-down.svg" class="flex self-center" />
+        </a>
+        <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordion">
+          <div class="card-body">
+            Isso depende do nosso peso e altura, cada corpo tem sua necessidade de consumo diário de água. E devemos aumentar esse consumo ao fazer atividades físicas e em dias muito quentes.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <a id="headingNine" class="card-header d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseNine" aria-expanded="true" aria-controls="collapseNine">
+          Como tomar água pode evitar o aparecimento de pedra nos rins?
+          <img src="/assets/images/chevron-down.svg" class="flex self-center" />
+        </a>
+        <div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordion">
+          <div class="card-body">
+            Tomar a quantidade de água necessária por dia ajuda a manter o rim hidratado, prevenindo a formação de cálculo renal, conhecidos popularmente como pedra nos rins. Outro cuidado que devemos ter para evitar o aparecimento de pedra nos rins é controlar a ingestão de muita proteína e sais.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <a id="headingTen" class="card-header d-flex justify-content-between collapsed" data-toggle="collapse" data-target="#collapseTen" aria-expanded="true" aria-controls="collapseTen">
+          Qual a importância de tomar água nos dias quentes, e ao fazer exercícios?
+          <img src="/assets/images/chevron-down.svg" class="flex self-center" />
+        </a>
+        <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion">
+          <div class="card-body">
+            Ao fazer exercícios físicos, e em dias quentes nosso corpo transpira mais, liberando mais água, a fim de controlar a temperatura corporal. Então nesses momentos reforce a ingestão de água.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+:ET
