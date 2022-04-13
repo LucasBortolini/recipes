@@ -1,8 +1,7 @@
 // animação tomando água scss
 section.second {
-  background: rgb(100,216,243);
-  background: linear-gradient(rgba(100,216,243,1), rgba(178,233,248,0.9));
-  padding: 24px 40px 0px 4px;
+  background-image: url('images/banner-index2.jpg');
+  background-size: contain;
 
   .section-wrapper {
     img.drinking {

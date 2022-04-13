@@ -1,5 +1,4 @@
-I"g
-<p><!-- banner --></p>
+I"�
 <section class="banner-index section-wrapper d-none d-sm-none d-md-block">
 	<div>
 		<h1>
@@ -9,28 +8,21 @@
 	</div>
 </section>
 
-<p><!-- cards (blocos imagem e texto logo abaixo do banner do desk) --></p>
-<div class="cards section-wrapper row no-gutters mb-0">
-  <div class="col-12 col-md-4"><!-- first (família em animação tomando água) -->
-<section class="h-100">
-	<div class="w-100 h-100 bg-white r-first">
+<div class="cards section-wrapper row no-gutters my-0">
+  <div class="col-12 col-md-4"><section class="h-100">
+	<div class="w-100 h-100 bg-white r-first pl-0">
 		<div class="img-wrapper">
-			<h2 class="text-first position-absolute font-weight-bold text-right mt-4 pr-4">
-				Boa parte dos problemas de saúde poderiam ser evitados cultivando alguns hábitos muito simples...
-			</h2>
 			<img src="/assets/images/banner-index1.jpg" class="w-100 h-100" />
 		</div>
 	</div>
 </section></div>
-  <div class="col-12 col-md-4"><!-- second (animação de uma pessoa tomando água) -->
-<section class="second">
+  <div class="col-12 col-md-4"><section class="second">
   <div class="section-wrapper mx-auto row no-gutters">
-    <img src="/assets/images/banner-index2.jpg" class="drinking col-6" />
     <div class="col-6 d-flex flex-column align-items-center text-center">
       <p class="font-weight-bold mb-4">
         ...e um dos hábitos mais simples é um dos mais negligenciados:
       </p>
-      <h4 class="font-weight-bold large pt-0 mb-0">
+      <h4 class="font-weight-bold large pt-0 mb-0 pb-5">
         Tomar água!
       </h4>
     </div>  
