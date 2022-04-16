@@ -98,10 +98,23 @@ input[type=number] {
 .section-wrapper {
   max-width: 980px;
   margin: 0 auto;
+}
 
-  &.cards {
-    @media (min-width: 576px) {
-      margin: 8px auto;
-    }
+.cards {
+  border-bottom: 4px solid red;
+
+  .card-1 {
+    padding-top: 2px;
+    padding-right: 2px;
+  }
+
+  .card-2 {
+    padding-top: 2px;
+    padding-right: 2px;
+  }
+
+  .card-3 {
+    padding-top: 2px;
+    padding-right: 2px;
   }
 }

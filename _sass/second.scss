@@ -2,61 +2,18 @@
 section.second {
   background-image: url('images/banner-index2.jpg');
   background-size: contain;
-
-  .section-wrapper {
-    img.drinking {
-      margin-top: -10%;
-      z-index: 5;
-
-      @media (min-width: 576px) {
-        max-height: 100%;
-        width: auto !important;
-      }
-    }
-  }
+  background-repeat: no-repeat;
 
   p {
-    color: #006798;
+    color: white;
     font-size: 14px;
+    font-weight: bold;
+    padding-left: 102px;
+    padding-bottom: 67px;
     padding-top: 52px;
-    margin-bottom: 19px !important;
-
-    @media (min-width: 576px) {
-      padding-top: 15px;
-    }
-
-    &.large {
-      font-size: 20px;
-    }
-
-    @media (min-width: 576px) {
-      font-size: 14px;
-
-      &.large {
-        font-size: 16px;;
-      }
-    }
-  }
-
-  h4 {
-    padding-top: 8px;
-    margin-bottom: 24px;
-    font-size: 20px;
-    color: #059CE1;
-
-    @media (min-width: 576px) {
-      padding-top: 0;
-      margin-bottom: 8px;
-      font-size: 18px;
-    }
-  }
-
-  .gotas {
-    margin: 0 16px 24px 24px;
-
-    @media (min-width: 576px) {
-      margin: 8px 8px 16px;
-    }
+    padding-right: 24px;
+    margin-bottom: 0;
+    text-align: right;
   }
 }
 

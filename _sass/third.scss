@@ -2,4 +2,27 @@
 section.third {
   background-image: url("images/banner-index3.jpg");
   background-size: contain;
+  background-repeat: no-repeat;
+
+  p {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: right;
+    padding-left: 87px;
+    margin-bottom: 2px;
+  }
+
+  .icon-index {
+    height: 28px;
+    width: 30px;
+  }
+
+  .phone-icon {
+    height: 208px;
+    margin-top: -12px;
+    margin-right: 6px;
+    margin-left: 10px;
+    z-index: 5;
+  }
 }

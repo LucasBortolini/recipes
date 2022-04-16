@@ -2,13 +2,15 @@
 .first {
   background-image: url("images/banner-index1.jpg");
   background-size: contain;
+  background-repeat: no-repeat;
 
   p {
     font-weight: bold;
     font-size: 14px;
-    padding-bottom: 54px;
+    padding-bottom: 50px;
     padding-top: 52px;
     padding-left: 24px;
-    padding-right: 124px;
+    padding-right: 122px;
+    margin-bottom: 0;
   }
 }
