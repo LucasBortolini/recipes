@@ -1,5 +1,5 @@
 // indique scss
-.fifth {
+.fourth {
   background-image: url("images/indique.jpg");
   background-size: auto 100%;
   background-repeat: no-repeat;
@@ -19,6 +19,14 @@
     }
   }
 
+  h3 {
+    font-size: 18px;
+    margin-bottom: 0;
+    margin-top: 6px;
+    font-weight: 100;
+    color: gray;
+  }
+
   input::placeholder {
     color: #006798;
   }
@@ -28,23 +36,21 @@
     background-size: cover;
 
     form {
-      width: 50% !important;
+      width: 60% !important;
       display: flex !important;
       justify-content: end !important;
       margin-right: unset !important;
-      margin-left: 503px !important;
     }
 
     p {
-      text-align: end !important;
+      text-align: center !important;
+      font-size: 14px;
+      padding-left: 20px;
+      padding-bottom: 36px;
+      padding-top: 16px;
     }
 
-    h1 {
-      text-align: center;
-      margin-left: 136px;
-    }
-
-    .fifth-section {
+    .fourth-section {
       padding-top: 10px !important;
       padding-bottom: 10px !important;
     }

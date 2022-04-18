@@ -5,9 +5,9 @@ permalink: /home
 sections:
   - banner.html
   - cards.md
-  - fifth.html
+  - fourth.html
   - blog.html
-  - seventh.html
+  - sixth.html
 ---
 
 {% for section in page.sections %}

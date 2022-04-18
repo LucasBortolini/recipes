@@ -23,6 +23,11 @@ section.third {
     margin-top: -12px;
     margin-right: 6px;
     margin-left: 10px;
-    z-index: 5;
+    position: absolute;
+    right: 0;
+  }
+
+  .text-wrapper {
+    padding-right: 132px;
   }
 }
