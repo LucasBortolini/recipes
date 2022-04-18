@@ -1,8 +1,10 @@
 section.sixth {
-  background-color: #3EAECE;
+  background-color: #2F2E2A;
+  border-bottom: 4px solid #EB9500;
+  border-top: 4px solid #EB9500;
 
   p {
-    color: #006798;
+    color: #F7F7F7;
   }
 
   h1 {
@@ -10,7 +12,7 @@ section.sixth {
       content: '';
       width: 100px;
       height: 2px;
-      background: #006798;
+      background: #EB9500;
       display: block;
       margin: 7px 0;
     }
@@ -20,7 +22,7 @@ section.sixth {
     &::after {
       content: '';
       height: 2px;
-      background: #006798;
+      background: #EB9500;
       display: block;
       margin: 7px 0;
       width: 35%;
@@ -30,7 +32,7 @@ section.sixth {
 
   h3 {
     font-size: 15px;
-    color: #fff;
+    color: #EB9500;
     font-weight: bold;
     margin-bottom: 28px;
     margin-top: 32px;
@@ -43,13 +45,13 @@ section.sixth {
 
   .font-title {
     font-size: 22px;
-    color: #20749C;
+    color: #EB9500;
     font-weight: bold;
   }
 
   .font-more {
     font-size: 16px;
-    color: #20749C;
+    color: #EB9500;
     font-weight: bold;
   }
 
@@ -68,11 +70,11 @@ section.sixth {
       padding: 8px 0;
       background: transparent;
       border: none;
-      border-bottom: 2px solid #20749C50;
+      border-bottom: 3px solid;
       font-weight: 700;
 
       @media (min-width: 576px) {
-        border-color: #00C2FA;
+        border-color: #989898;
       }
     }
   }
