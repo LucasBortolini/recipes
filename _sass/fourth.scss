@@ -4,6 +4,7 @@
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: -200px center;
+  border-top: 4px solid #EB9500;
 
   p {
     font-size: 16px;
@@ -28,7 +29,7 @@
   }
 
   input::placeholder {
-    color: #006798;
+    color: #000000;
   }
 
   @media (min-width: 576px){
@@ -59,8 +60,8 @@
 }
 
 input.form-control.btn.indicate-btn {
-  background-color: #F1FE5B;
-  color: #006798;
+  background-color: #EB9500;
+  color: #F7F7F7;
   height: 36px;
   font-size: 18px;
   padding: 4px 12px 6px;

@@ -6,7 +6,6 @@ sections:
   - banner.html
   - cards.md
   - fourth.html
-  - blog.html
   - sixth.html
 ---
 
