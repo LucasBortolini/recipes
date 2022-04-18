@@ -1,63 +1,64 @@
 // header scss
-.blue-header {
-  ins {
-    text-decoration: none;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
+.header {
   padding: 0;
-  background: rgb(100,216,243);
-  background: linear-gradient(rgba(100,216,243,1), rgba(178,233,248,0.9));
-}
+  background-color: #2F2E2A;
+  border-bottom: 4px solid #EB9500;
 
-.navbar {
-  -webkit-box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.2); 
-  box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.2);
+  label {
+    color: #f7f7f7;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 3px;
+  }
 
-  @media (min-width: 576px){
-    box-shadow: none;
+  .navbar {
     -webkit-box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.2); 
     box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.2);
-  }
-}
 
-.header-line {
-  @media (min-width: 576px) {
-    padding: 1rem .5rem;
+    @media (min-width: 576px){
+      box-shadow: none;
+      -webkit-box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.2); 
+      box-shadow: 0px 8px 5px 0px rgba(0,0,0,0.2);
+    }
+  }
+
+  .header-line {
+    @media (min-width: 576px) {
+      padding-bottom: 16px;
+      display: flex;
+      flex-grow: 1;
+      justify-content: center;
+    }
+  }
+
+  .icons {
+    background-color: gray;
+    border-radius: 6px;
+    left: 900px;
+    top: 11px;
+    height: 24px;
+  }
+
+  .icons-position {
+    margin-top: -7px;
+  }
+
+  .header-wrapper {
     display: flex;
-    flex-grow: 1;
+    flex-direction: column;
     justify-content: center;
+
+    @media (min-width: 576px) {
+      max-width: 960px;
+      flex-direction: row-reverse;
+    }
   }
-}
 
-.header-wrapper {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  @media (min-width: 576px) {
-    max-width: 960px;
-    flex-direction: row-reverse;
+  .size-logo {
+    width: 90%;
   }
-}
 
-.header-form {
-  padding: 0 1rem;
-
-  @media (min-width: 576px) {
-    padding: 0;
-    margin-left: 2rem;
-  }
-}
-
-.header-margin {
-  margin-bottom: -26px;
-
-  @media (min-width: 576px) {
-    margin-bottom: 0;
-    padding: 0;
+  .header-margin {
+    margin-bottom: -26px;
   }
 }
