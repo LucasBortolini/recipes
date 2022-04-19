@@ -1,16 +1,98 @@
 // familia tomando agua scss
 .first {
   background-image: url("images/banner-index1.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width: 960px) {  
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
   p {
     font-weight: bold;
-    font-size: 14px;
-    padding-bottom: 50px;
-    padding-top: 52px;
-    padding-left: 24px;
+    font-size: 16px;
+    padding-top: 68px;
     padding-right: 122px;
+    padding-bottom: 60px;
+    padding-left: 24px;
     margin-bottom: 0;
+
+    @media (min-width: 383px) {
+      font-size: 16px;
+      padding-top: 72px;
+      padding-right: 152px;
+      padding-bottom: 70px;
+      padding-left: 24px;
+    }
+
+    @media (min-width: 413px) {
+      font-size: 18px;
+      padding-top: 76px;
+      padding-right: 152px;
+      padding-bottom: 72px;
+      padding-left: 24px;
+    }
+
+    @media (min-width: 427px) {
+      font-size: 18px;
+      padding-top: 80px;
+      padding-right: 160px;
+      padding-bottom: 78px;
+      padding-left: 24px;
+    }
+
+    @media (min-width: 960px) {
+      font-weight: bold;
+      font-size: 14px;
+      padding-top: 52px;
+      padding-right: 110px;
+      padding-bottom: 50px;
+      padding-left: 24px;
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 1079px) {
+      font-weight: bold;
+      font-size: 14px;
+      padding-top: 52px;
+      padding-right: 120px;
+      padding-bottom: 50px;
+      padding-left: 24px;
+      margin-bottom: 0;
+    }
+
+
+    @media (min-width: 1279px) {
+      font-weight: bold;
+      font-size: 14px;
+      padding-top: 52px;
+      padding-right: 122px;
+      padding-bottom: 50px;
+      padding-left: 24px;
+      margin-bottom: 0;
+    }
   }
+}
+
+
+
+@media (min-width: 413px) {
+  right: 18%;
+  top: 15%;
+}
+
+@media (min-width: 959px) {
+  right: 1%;
+}
+
+@media (min-width: 1079px) {
+  right: 5%;
+}
+
+@media (min-width: 1279px) {
+  right: 12%;
+}
+
+@media (min-width: 1439px) {
+  right: 16%;
 }
