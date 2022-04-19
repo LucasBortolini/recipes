@@ -1,16 +1,35 @@
 // gota com texto scss
 section.third {
   background-image: url("images/banner-index3.jpg");
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width: 1279px) {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
   p {
     color: #FFF;
     font-weight: bold;
-    font-size: 11px;
+    font-size: 12px;
     text-align: right;
-    padding-left: 87px;
     margin-bottom: 2px;
+
+    @media (min-width: 383px) {
+      font-size: 12px;
+    }
+
+    @media (min-width: 414px) {
+      font-size: 13px;
+    }
+
+    @media (min-width: 427px) {
+      font-size: 14px;
+    }
+
+    @media (min-width: 960px) {
+      font-size: 11px;
+    }
   }
 
   .icon-index {
@@ -19,15 +38,51 @@ section.third {
   }
 
   .phone-icon {
-    height: 208px;
+    height: 220px;
     margin-top: -12px;
     margin-right: 6px;
     margin-left: 10px;
     position: absolute;
     right: 0;
+
+    @media (min-width: 414px) {
+      height: 228px;
+    }
+
+    @media (min-width: 427px) {
+      height: 236px;
+    }
+
+    @media (min-width: 960px) {
+      height: 208px;
+    }
   }
 
   .text-wrapper {
     padding-right: 132px;
+    padding-left: 108px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    @media (min-width: 383px) {
+      padding-left: 128px;
+    }
+
+    @media (min-width: 413px) {
+      padding-left: 144px;
+      margin-right: 8px;
+    }
+
+    @media (min-width: 427px) {
+      padding-left: 148px;
+      margin-right: 8px;
+    }
+
+    @media (min-width: 960px) {
+      padding-right: 132px;
+      padding-left: 87px;
+      padding-top: 3px;
+      margin-right: 0;
+    }
   }
 }
