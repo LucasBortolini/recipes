@@ -1,19 +1,64 @@
 // animação tomando água scss
 section.second {
   background-image: url('images/banner-index2.jpg');
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: cover;
+
+  @media (min-width: 1079px) {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
 
   p {
     color: white;
     font-size: 14px;
     font-weight: bold;
-    padding-left: 102px;
+    padding-left: 126px;
     padding-bottom: 67px;
-    padding-top: 52px;
-    padding-right: 24px;
+    padding-top: 70px;
+    padding-right: 22px;
     margin-bottom: 0;
     text-align: right;
+
+    @media (min-width: 383px) {
+      font-size: 16px;
+      padding-left: 128px;
+      padding-bottom: 67px;
+      padding-top: 76px;
+      padding-right: 24px;
+    }
+
+    @media (min-width: 413px) {
+      font-size: 18px;
+      padding-left: 132px;
+      padding-bottom: 76px;
+      padding-top: 80px;
+      padding-right: 24px;
+    }
+
+    @media (min-width: 427px) {
+      padding-left: 140px;
+      padding-bottom: 76px;
+      padding-top: 80px;
+      padding-right: 24px;
+    }
+
+    @media (min-width: 959px) {
+      font-size: 14px;
+      padding-left: 98px;
+      padding-bottom: 53px;
+      padding-top: 62px;
+      padding-right: 12px;
+      margin-bottom: 0;
+    }
+
+    @media (min-width: 1079px) {
+      font-size: 14px;
+      padding-left: 102px;
+      padding-bottom: 42px;
+      padding-top: 65px;
+      padding-right: 24px;
+      margin-bottom: 12px;
+    }
   }
 }
 
