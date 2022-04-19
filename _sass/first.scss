@@ -1,9 +1,9 @@
 // familia tomando agua scss
-.first {
+section.first {
   background-image: url("images/banner-index1.jpg");
   background-size: cover;
 
-  @media (min-width: 960px) {  
+  @media (min-width: 1079px) {  
     background-size: contain;
     background-repeat: no-repeat;
   }

@@ -54,8 +54,13 @@ section.third {
     }
 
     @media (min-width: 960px) {
+      height: 218px;
+    }
+
+    @media (min-width: 1079px) {
       height: 208px;
     }
+
   }
 
   .text-wrapper {
