@@ -1,13 +1,37 @@
-// indique scss
 .fourth {
-  background-image: url("images/indique.jpg");
-  background-size: auto 100%;
   background-repeat: no-repeat;
-  background-position: -200px center;
+  background-size: cover;
   border-top: 4px solid #EB9500;
+  background-image: url("images/indique-mobile.jpg");
+
+  @media (min-width: 960px) {
+    background-image: url("images/indique.jpg");
+  }
 
   p {
-    font-size: 16px;
+    font-size: 14px;
+    text-align: center;
+    padding: 0 32px;
+
+    @media (min-width: 383px) {
+      padding: 0 48px;
+    } 
+
+    @media (min-width: 413px) {
+      padding: 0 64px;
+    }
+
+    @media (min-width: 960px) {
+      font-size: 16px;
+    }
+  }
+
+  br {
+    display: none;
+
+    @media (min-width: 960px) {
+      display: block;
+    }
   }
 
   h1 {
@@ -21,15 +45,20 @@
   }
 
   h3 {
-    font-size: 18px;
-    margin-bottom: 0;
-    margin-top: 6px;
-    font-weight: 100;
-    color: gray;
+    display: none;
+
+    @media (min-width: 1080px) {
+      display: block;
+      font-size: 18px;
+      margin-bottom: 0;
+      margin-top: 4px;
+      font-weight: 100;
+      color: gray;
+    }
   }
 
   input::placeholder {
-    color: #000000;
+    color: #FFF;
   }
 
   @media (min-width: 576px){
@@ -47,8 +76,8 @@
       text-align: center !important;
       font-size: 14px;
       padding-left: 20px;
-      padding-bottom: 36px;
-      padding-top: 16px;
+      padding-bottom: 20px;
+      padding-top: 8px;
     }
 
     .fourth-section {
@@ -57,15 +86,43 @@
     }
 
   }
+
+  @media (min-width: 960px){
+    background-position: center;
+    background-size: cover;
+  }
 }
 
 input.form-control.btn.indicate-btn {
   background-color: #EB9500;
   color: #F7F7F7;
-  height: 36px;
+  height: 30px;
   font-size: 18px;
   padding: 4px 12px 6px;
   border-radius: 8px;
+}
+
+.p-form-indicate {
+  padding-top: 16px;
+  padding-bottom: 140px;
+  padding-right: 60px;
+  padding-left: 60px;
+
+  @media (min-width: 413px) {
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 148px;
+  }
+
+  @media (min-width: 427px) {
+    padding-left: 72px;
+    padding-right: 72px;
+    padding-bottom: 154px;
+  }
+
+  @media (min-width: 960px) {
+    padding-bottom: 0;
+  }
 }
 
 .indicate-form {

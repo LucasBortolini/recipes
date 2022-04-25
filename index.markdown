@@ -1,9 +1,8 @@
 ---
-layout: modal
-title: Vou te Ajudar a manter hidratado e saudável.
-image: /assets/images/modal-gota.png
-text: Preciso de alguns dados para te conhecer melhor
-next: /seu-peso
+layout: default
 ---
 
-{% include modal.html %}
+{%- include banner.html -%}
+{%- include cards.md -%}
+{%- include fourth.html -%}
+{%- include sixth.html -%}

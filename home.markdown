@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Beba Água
+title: Receitas do Dia
 permalink: /home
 sections:
   - banner.html

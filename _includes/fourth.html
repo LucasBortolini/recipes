@@ -1,20 +1,28 @@
 <section class="fourth">
   <div class="section-wrapper">  
-    <div class="pt-5 pb-3 fourth-section">
+    <div class="pt-3 pb-3 fourth-section">
       <p class="text-black font-weight-bold mb-0">
         Quer fazer uma pessoa que gosta de cozinhar feliz?
         <br>
-        Indique o receitas do dia pra ela!
+        Convide ela para o Receitas do Dia!
       </p>
-      <div class="d-flex justify-content-center ml-5">
-        <form class="input-group row gx-2 d-flex justify-content-between px-4 py-2" action="{{ '/indique' | relative_url }}">
-          <input class="col indicate-form shadow-none mr-2" required placeholder="Nome">
-          <input class="col indicate-form shadow-none mr-2" required placeholder="E-mail">
-          <h3 class="px-2">
+      <div class="d-flex justify-content-center p-form-indicate">
+        <form class="input-group row no-gutters gx-1 d-flex justify-content-between" action="{{ '/indique' | relative_url }}">
+          <div class="form-group col-6 col-lg-3 pr-2">
+            <input class="form-control indicate-form shadow-none" required placeholder="Nome">
+          </div>
+          <div class="form-group col-6 col-lg-3 pr-2">
+            <input class="form-control indicate-form shadow-none" required placeholder="E-mail">
+          </div>
+          <h3 class="col-1">
             e ou
           </h3>
-          <input class="col indicate-form shadow-none mr-2" required placeholder="Whatsapp">
-          <input type="submit" class="form-control col-3 btn indicate-btn" value="Indicar"/>
+          <div class="form-group col-6 col-lg-3 pr-2">
+            <input class="form-control indicate-form shadow-none" required placeholder="Whatsapp">
+          </div>
+          <div class="form-group col-6 col-lg-2 pr-2 pr-lg-0">
+            <input type="submit" class="form-control btn indicate-btn" value="Indicar"/>
+          </div>
         </form>
       </div>
     </div>
