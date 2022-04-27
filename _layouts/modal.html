@@ -13,13 +13,22 @@ layout: base
 
 <section class="myModal-wrapper">
   <div class="myModal">
-    <img src="{{ page.image | relative_url }}" class="header-image {% if page.url != '/' %} small {% endif %}">
-    <h1 class="header-title">{{ page.title }}</h1>
-    <p class="text px-2 mb-1">
-      {{ page.text }}
-    </p>
+    {% if page.title %}
+      <h1 class="header-title">{{ page.title }}</h1>
+    {% endif %}
+    {% if page.text %}
+      <p class="text px-2 mb-1">
+        {{ page.text }}
+      </p>
+    {% endif %}
 
     {{ content }}
+
+    {% if page.image %}
+      <a href="{{ page.button }}">
+        <img src="{{ page.image | relative_url }}" class="header-image">
+      </a>
+    {% endif %}
   </div>
   <a class="close" href="{{ '/home' | relative_url }}">
     <button type="button" aria-label="Close">
