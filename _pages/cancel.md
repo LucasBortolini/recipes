@@ -1,22 +1,25 @@
 ---
-layout: default
+layout: modal
+title: Descadastrar 
 permalink: /cancelar
-link: /cancelado
-link-2: /editar-cadastro
 ---
 
-<!-- tela de cancelamento de cadastro -->
-<div class="habits cancel text-center py-5">
-  <h1 class="text-center px-5">
-    Tem certeza que deseja
-    <br>
-    cancelar seu cadastro?
-  </h1>
-  <img src="assets/images/temcerteza.png" class="py-3">
-  <div class="text-center pt-2">
-    <a href="{{ page.link | relative_url }}">Sim! Desejo cancelar</a>
-  </div>
-  <div class="text-center pt-3">
-    <a href="{{ page.link-2 | relative_url }}" class="text-white">Voltar</a>
-  </div>
+<p class="text-center">
+  Para se descadastrar do site e cancelar o envio de receitas e promoções, preencha os campos abaixo:
+</p>
+<div class="d-flex justify-content-center">
+  <form class="input-group row no-gutters gx-1 d-flex justify-content-between" action="{{ '/cancelado' | relative_url }}">
+    <div class="form-group col-6 col-lg-3 pr-2">
+      <input class="form-control indicate-form shadow-none" required placeholder="Nome">
+    </div>
+    <div class="form-group col-6 col-lg-3 pr-2">
+      <input class="form-control indicate-form shadow-none" required placeholder="E-mail">
+    </div>
+    <div class="form-group col-6 col-lg-3 pr-2">
+      <input class="form-control indicate-form shadow-none" required placeholder="Telefone">
+    </div>
+    <div class="form-group col-6 col-lg-2 pr-2 pr-lg-0">
+      <input type="submit" class="btn form-control indicate-btn py-1" value="Descadastrar"/>
+    </div>
+  </form>
 </div>

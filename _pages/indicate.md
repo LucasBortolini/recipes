@@ -1,10 +1,12 @@
 ---
 layout: modal
-title: Indique
-text: Convite enviado com sucesso
-image: /assets/images/modal-gota.png
+title: ""
 permalink: /indique
 ---
 
-<!-- modal (convite de indicação enviado com sucesso) -->
-<a href="{{ '/home' | relative_url }}" class="bg">Voltar</a>
+<p class="text-center pb-3">
+  Que bom que você gostou da gente!
+  <br>
+  Vamos enviar um convite para o seu convidado! Obrigado!
+</p>
+<a href="{{ '/home' | relative_url }}" class="btn px-4">Voltar</a>
