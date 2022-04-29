@@ -3,8 +3,7 @@ layout: modal
 title: Reportar Erro
 text: Obrigado por colaborar com o aperfeiçoamento do sistema!
 image: /assets/images/modal-gota.png
-permalink: /erro-reportado
+permalink: /erro-reportado.html
 ---
 
-<!-- confirmação de erro reportado -->
-<a href="{{ '/reportar-erro' | relative_url }}" class="bg">Voltar</a>
+<a href="{{ '/reportar-erro.html' | relative_url }}" class="bg">Voltar</a>

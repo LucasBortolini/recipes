@@ -1,14 +1,14 @@
 ---
 layout: modal
 title: Fale conosco
-permalink: /fale-conosco
+permalink: /fale-conosco.html
 ---
 
 <p class="mt-2 mb-4">
   Loren Ipsun fale conosco texto exemplo
 </p>
 <div class="mt-3 px-5">
-  <form action="{{ '/fale-conosco-erro' | relative_url }}">
+  <form action="{{ '/fale-conosco-erro.html' | relative_url }}">
     <div class="form">
       <div class="row">
         <div class="input-group col-6 mb-3 px-0">

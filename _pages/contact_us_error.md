@@ -1,7 +1,7 @@
 ---
 layout: modal
 title: Fale Conosco
-permalink: /fale-conosco-erro
+permalink: /fale-conosco-erro.html
 ---
 
 <p class="text-center text-danger mt-3">

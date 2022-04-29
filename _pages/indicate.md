@@ -1,7 +1,7 @@
 ---
 layout: modal
 title: ""
-permalink: /indique
+permalink: /indique.html
 ---
 
 <p class="text-center pb-3">
@@ -9,4 +9,4 @@ permalink: /indique
   <br>
   Vamos enviar um convite para o seu convidado! Obrigado!
 </p>
-<a href="{{ '/home' | relative_url }}" class="btn px-4">Voltar</a>
+<a href="{{ '/' | relative_url }}" class="btn px-4">Voltar</a>

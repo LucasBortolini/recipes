@@ -1,7 +1,7 @@
 ---
 layout: modal
 title: Descadastrar 
-permalink: /cancelar
+permalink: /cancelar.html
 ---
 
 <div class="px-5">
@@ -9,7 +9,7 @@ permalink: /cancelar
     Para se descadastrar do site e cancelar o envio de receitas e promoções, preencha os campos abaixo:
   </p>
   <div class="d-flex justify-content-center">
-    <form class="input-group row no-gutters gx-1 d-flex justify-content-between" action="{{ '/cancelado' | relative_url }}">
+    <form class="input-group row no-gutters gx-1 d-flex justify-content-between" action="{{ '/cancelado.html' | relative_url }}">
       <div class="form-group col-6 pr-2">
         <input class="form-control indicate-form shadow-none" required placeholder="Nome">
       </div>

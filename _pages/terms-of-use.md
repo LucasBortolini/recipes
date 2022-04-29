@@ -1,7 +1,7 @@
 ---
 layout: modal
 title: Termos de Uso
-permalink: /termos-de-uso
+permalink: /termos-de-uso.html
 ---
 
 <p>

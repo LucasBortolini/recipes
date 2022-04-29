@@ -1,7 +1,7 @@
 ---
 layout: modal
 title: Política de privacidade
-permalink: /politica-de-privacidade
+permalink: /politica-de-privacidade.html
 ---
 
 <p>

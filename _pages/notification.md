@@ -1,7 +1,7 @@
 ---
 layout: modal
 title: Notificações
-permalink: /notification
+permalink: /notification.html
 ---
 
 <div>

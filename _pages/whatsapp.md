@@ -10,11 +10,11 @@ permalink: /whatsapp.html
       <input required type="checkbox" class="float-left checkbox-position">
       <p class="mb-0">
         "Li e aceito os
-        <a href="{{ '/terms-of-use' | relative_url }}">
+        <a href="{{ '/terms-of-use.html' | relative_url }}">
           termos de uso
         </a>
         do serviço. Me comprometo a respeitar o
-        <a href="{{ '/terms-of-use' | relative_url }}">
+        <a href="{{ '/terms-of-use.html' | relative_url }}">
           manual de boas práticas
         </a>
         , inclusive não enviando aos demais participantes do grupo conteúdos inadequados ou que não tenham relação com os temas propostos"

@@ -1,6 +1,6 @@
 ---
 layout: modal
-permalink: /e-mail
+permalink: /e-mail.html
 title: Cadastrar E-mail
 ---
 
@@ -10,7 +10,7 @@ title: Cadastrar E-mail
       <input required type="checkbox" class="float-left checkbox-position">
       <p class="mb-0 mt-3">
         Li e aceito os
-        <a href="{{ '/terms-of-use' | relative_url }}">
+        <a href="{{ '/termos-de-uso.html' | relative_url }}">
           termos de uso
         </a>
         do serviço.

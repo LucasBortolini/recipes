@@ -1,7 +1,7 @@
 ---
 layout: modal
 title: Descadastrar
-permalink: /cancelado
+permalink: /cancelado.html
 ---
 
 <p class="text-center">

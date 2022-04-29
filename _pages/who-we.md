@@ -1,7 +1,7 @@
 ---
 layout: modal
 title: Quem Somos
-permalink: /quem-somos
+permalink: /quem-somos.html
 ---
 
 <p>

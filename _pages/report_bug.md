@@ -2,11 +2,11 @@
 layout: modal
 title: Reportar Erro!
 text: Se você encontrou algum problema em nosso sistema, por favor nos comunique preenchendo os campos abaixo
-permalink: /reportar-erro
+permalink: /reportar-erro.html
 ---
 
 <div class="px-5">
-  <form action="{{ '/erro-reportado' | relative_url }}">
+  <form action="{{ '/erro-reportado.html' | relative_url }}">
     <div class="form">
       <div class="row">
         <div class="input-group col-6 mb-3 px-0">

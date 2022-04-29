@@ -1,10 +1,9 @@
 ---
 layout: default
 permalink: /erro
-link: /home
+link: /
 ---
 
-<!-- tela de erro na aplicação -->
 <div class="habits cancel text-center py-5">
   <h1 class="text-center px-5">
     Erro!
