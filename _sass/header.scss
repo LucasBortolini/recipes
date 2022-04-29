@@ -23,46 +23,28 @@
   }
 
   .header-line {
+    min-height: 96px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
     @media (min-width: 576px) {
-      padding-bottom: 16px;
-      display: flex;
       flex-grow: 1;
-      justify-content: center;
+      min-height: 48px;
+      align-items: center;
     }
   }
 
   .icons {
+    display: flex;
     background-color: gray;
     border-radius: 6px;
-    top: 11px;
     height: 24px;
-  }
+    margin-top: 16px;
 
-  .icons {
-    @media (min-width: 360px) {
-      right: 14%;
-      top: 15%;
-    }
-
-    @media (min-width: 413px) {
-      right: 18%;
-      top: 15%;
-    }
-
-    @media (min-width: 959px) {
-      right: 1%;
-    }
-
-    @media (min-width: 1079px) {
-      right: 5%;
-    }
-
-    @media (min-width: 1279px) {
-      right: 12%;
-    }
-
-    @media (min-width: 1439px) {
-      right: 16%;
+    @media (min-width: 576px) {
+      margin-top: 0;
     }
   }
 
@@ -71,19 +53,22 @@
   }
 
   .header-wrapper {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
 
     @media (min-width: 576px) {
       max-width: 960px;
-      flex-direction: row-reverse;
+      flex-direction: row;
+      justify-content: flex-end;
     }
   }
 
   .size-logo {
     width: 100%;
-    margin-top: 60px;
+    margin-top: 128px;
 
     @media (min-width: 576px) {
       width: 90%;
@@ -92,7 +77,10 @@
   }
 
   .header-margin {
-    margin-bottom: -8px;
+    width: 100%;
+    padding: 20px;
+    left: 50%;
+    transform: translate(-50%, 0);
 
     @media (min-width: 576px) {
       margin-bottom: -26px;  
