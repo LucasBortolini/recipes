@@ -1,7 +1,7 @@
 ---
 layout: modal
 title: Entrar no Grupo
-permalink: /whatsapp
+permalink: /whatsapp.html
 ---
 
 <div>
