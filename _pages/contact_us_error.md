@@ -1,10 +1,15 @@
 ---
 layout: modal
 title: Fale Conosco
-text: Desculpe, estamos com problemas e sua mensagem não foi enviada. Por favor tente mais tarde.
-image: /assets/images/modal-gota.png
 permalink: /fale-conosco-erro
 ---
 
-<!-- modal (fale conosco) -->
-<a href="{{ '/esqueci-minha-senha' | relative_url }}" class="bg">Voltar</a>
+<p class="text-center text-danger mt-3">
+  Mensagem não enviada.
+  <br>
+  Desculpe, estamos enfrentando problemas técnicos e sua mensagem não foi enviada.
+  <br>
+  <strong>
+    Por favor, tente novamente mais tarde.
+  </strong>
+</p>

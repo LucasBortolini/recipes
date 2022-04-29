@@ -22,7 +22,7 @@ section.myModal-wrapper {
     top: 185px;
 
     @media (min-width: 576px) {
-      margin-top: 272px;
+      margin-top: 24px;
       position: relative;
       transform: translate(-50%, -50%);
     }
@@ -63,7 +63,7 @@ section.myModal-wrapper {
     @media (min-width: 576px) {
       height: 45vh;
       border-radius: 18px;
-      margin-top: 272px;
+      margin-top: 200px;
       height: auto;
       max-height: calc(100vh - 162px);
       justify-content: center;
