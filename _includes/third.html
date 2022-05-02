@@ -11,8 +11,10 @@
         usando:
       </p>
       <div class="d-flex justify-content-end">
-        <img src="{{ 'assets/images/whats.png'  | relative_url }}" class="mr-3 icon-index whats-icon">
-        <a href="{{ '/telegram.html' | relative_url }}" class="telegram-icon">
+        <a class="whatsapp-icon">
+          <img src="{{ 'assets/images/whats.png'  | relative_url }}" class="mr-3 icon-index whats-icon">
+        </a>  
+        <a class="telegram-icon">
           <img src="{{ 'assets/images/telegram.png'  | relative_url }}" class="ml-2 icon-index">
         </a>
       </div>
@@ -20,16 +22,18 @@
         Ou se preferir receba por:
       </p>
       <div class="d-flex justify-content-end">
-        <a href="{{ '/e-mail.html' | relative_url }}" class="email-icon">
+        <a class="email-icon">
           <img src="{{ 'assets/images/mail.png'  | relative_url }}" class="mr-3 icon-index mt-1">
         </a>
-        <a href="{{ '/notification.html' | relative_url }}" class="notification-icon">
+        <a class="notification-icon">
           <img src="{{ 'assets/images/notification.png'  | relative_url }}" class="ml-2 mt-1 icon-index">
         </a>
       </div>
     </div>
-    <div class="phone-icon">
-      <img src="{{ 'assets/images/phone.png'  | relative_url }}" class="h-100">
+    <div>
+      <a class="phone-icon">
+        <img src="{{ 'assets/images/phone.png'  | relative_url }}" class="h-100">
+      </a>
     </div>
   </div>
 </section>

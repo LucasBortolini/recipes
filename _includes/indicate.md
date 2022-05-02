@@ -1,10 +1,4 @@
----
-layout: modal
-title: ""
-permalink: /indique.html
----
-
-<div id="modal-indicate">
+<div id="modal-indicate" class="d-none myModal-content">
   <p class="text-center pb-3">
     Que bom que você gostou da gente!
     <br>

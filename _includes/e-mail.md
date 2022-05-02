@@ -1,10 +1,5 @@
----
-layout: modal
-permalink: /e-mail.html
-title: Cadastrar E-mail
----
-
-<div id="modal-email">
+<div id="modal-email" class="d-none myModal-content">
+  <h1 class="header-title">Cadastrar E-mail</h1>
   <form>
     <div>
       <input required type="checkbox" class="float-left checkbox-position">

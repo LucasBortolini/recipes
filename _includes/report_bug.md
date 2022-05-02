@@ -1,11 +1,8 @@
----
-layout: modal
-title: Reportar Erro!
-text: Se você encontrou algum problema em nosso sistema, por favor nos comunique preenchendo os campos abaixo
-permalink: /reportar-erro.html
----
-
-<div id="modal-report" class="px-5">
+<div id="modal-report" class="d-none myModal-content px-5">
+  <h1 class="header-title">Reportar Erro</h1>
+  <p>
+    Se você encontrou algum problema em nosso sistema, por favor nos comunique preenchendo os campos abaixo
+  </p>
   <form action="{{ '/erro-reportado.html' | relative_url }}">
     <div class="form">
       <div class="row">

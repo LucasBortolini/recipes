@@ -1,10 +1,4 @@
----
-layout: modal
-title: Descadastrar 
-permalink: /cancelar.html
----
-
-<div id="modal-cancel" class="px-5">
+<div id="modal-cancel" class="d-none myModal-content px-5">
   <p class="text-center">
     Para se descadastrar do site e cancelar o envio de receitas e promoções, preencha os campos abaixo:
   </p>

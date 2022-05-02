@@ -1,10 +1,5 @@
----
-layout: modal
-title: Notificações
-permalink: /notification.html
----
-
-<div id="modal-notification">
+<div id="modal-notification" class="d-none myModal-content">
+  <h1 class="header-title">Notificações</h1>
   <form>
     <div>
       <p class="mb-0 mt-3 text-center">

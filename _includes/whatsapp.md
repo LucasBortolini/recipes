@@ -1,20 +1,15 @@
----
-layout: modal
-permalink: /telegram.html
-title: Entrar no Grupo
----
-
-<div id="modal-telegram">
+<div id="modal-whatsapp" class="d-none myModal-content">
+  <h1 class="header-title">Entrar no Grupo</h1>
   <form>
     <div>
       <input required type="checkbox" class="float-left checkbox-position">
       <p class="mb-0">
         "Li e aceito os
-        <a href="{{ '/terms-of-use.html' | relative_url }}">
+        <a href="{{ '/#' | relative_url }}">
           termos de uso
         </a>
         do serviço. Me comprometo a respeitar o
-        <a href="{{ '/terms-of-use.html' | relative_url }}">
+        <a href="{{ '/#' | relative_url }}">
           manual de boas práticas
         </a>
         , inclusive não enviando aos demais participantes do grupo conteúdos inadequados ou que não tenham relação com os temas propostos"
@@ -30,8 +25,8 @@ title: Entrar no Grupo
     </div>
     <div class="d-flex justify-content-center">
       <button type="submit">
-        <img src="{{ 'assets/images/modal-telegram.png'  | relative_url }}" class="modal-img">
-        <span class="modal-icon-telegram text-white font-weight-bold py-1 px-3">Entrar no Grupo</span>
+        <img src="{{ 'assets/images/modal-whats.png'  | relative_url }}" class="modal-img w-25">
+        <span class="modal-icon-whats text-white font-weight-bold py-1 px-3">Entrar no Grupo</span>
       </button>
     </div>
   </form>
