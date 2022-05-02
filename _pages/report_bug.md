@@ -5,7 +5,7 @@ text: Se você encontrou algum problema em nosso sistema, por favor nos comuniqu
 permalink: /reportar-erro.html
 ---
 
-<div class="px-5">
+<div id="modal-report" class="px-5">
   <form action="{{ '/erro-reportado.html' | relative_url }}">
     <div class="form">
       <div class="row">

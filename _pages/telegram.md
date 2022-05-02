@@ -4,7 +4,7 @@ permalink: /telegram.html
 title: Entrar no Grupo
 ---
 
-<div>
+<div id="modal-telegram">
   <form>
     <div>
       <input required type="checkbox" class="float-left checkbox-position">

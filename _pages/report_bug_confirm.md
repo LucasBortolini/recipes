@@ -6,4 +6,6 @@ image: /assets/images/modal-gota.png
 permalink: /erro-reportado.html
 ---
 
-<a href="{{ '/reportar-erro.html' | relative_url }}" class="bg">Voltar</a>
+<div id="modal-report-confirm">
+  <a href="{{ '/reportar-erro.html' | relative_url }}" class="bg">Voltar</a>
+</div>

@@ -4,7 +4,7 @@ title: Notificações
 permalink: /notification.html
 ---
 
-<div>
+<div id="modal-notification">
   <form>
     <div>
       <p class="mb-0 mt-3 text-center">

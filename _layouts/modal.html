@@ -6,12 +6,11 @@ layout: base
 {%- include banner.html -%}
 {%- include cards.md -%}
 {%- include fourth.html -%}
-{%- include blog.html -%}
 {%- include sixth.html -%}
 {%- include footer.html -%}
 
 
-<section class="myModal-wrapper">
+<section id="modal" class="d-none myModal-wrapper">
   <div class="myModal">
     {% if page.title %}
       <h1 class="header-title">{{ page.title }}</h1>

@@ -4,7 +4,7 @@ permalink: /e-mail.html
 title: Cadastrar E-mail
 ---
 
-<div>
+<div id="modal-email">
   <form>
     <div>
       <input required type="checkbox" class="float-left checkbox-position">

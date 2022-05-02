@@ -4,7 +4,7 @@ title: Entrar no Grupo
 permalink: /whatsapp.html
 ---
 
-<div>
+<div id="modal-whatsapp" class="d-none">
   <form>
     <div>
       <input required type="checkbox" class="float-left checkbox-position">
