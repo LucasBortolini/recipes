@@ -25,41 +25,49 @@ document.addEventListener("DOMContentLoaded", function(event) {
   // SOCIAL 
 
   //// whats
-  const whatsappIcon = document.querySelector(".whatsapp-icon");
+  const whatsappIcons = document.querySelectorAll(".whatsapp-icon");
 
-  if (whatsappIcon) {
-    whatsappIcon.addEventListener("click", function() {
-      showModal("#modal-whatsapp");
+  if (whatsappIcons) {
+    whatsappIcons.forEach(whatsappIcon => {
+      whatsappIcon.addEventListener("click", function() {
+        showModal("#modal-whatsapp");
+      });
     });
   }
 
   //// telegram
-  const telegramIcon = document.querySelector(".telegram-icon");
+  const telegramIcons = document.querySelectorAll(".telegram-icon");
 
-  if (telegramIcon) {
-    telegramIcon.addEventListener("click", function() {
-      showModal("#modal-telegram"); 
+  if (telegramIcons) {
+    telegramIcons.forEach(telegramIcon => {
+      telegramIcon.addEventListener("click", function() {
+        showModal("#modal-telegram");
+      });
     });
   }
 
   //// email
-  const emailIcon = document.querySelector(".email-icon");
+  const emailIcons = document.querySelectorAll(".email-icon");
 
-  if (emailIcon) {
-    emailIcon.addEventListener("click", function() {
-      showModal("#modal-email"); 
+  if (emailIcons) {
+    emailIcons.forEach(emailIcon => {
+      emailIcon.addEventListener("click", function() {
+        showModal("#modal-email");
+      });
     });
   }
 
-  //// notificação
-  const notificationIcon = document.querySelector(".notification-icon");
+  //// notification
+  const notificationIcons = document.querySelectorAll(".notification-icon");
 
-  if (notificationIcon) {
-    notificationIcon.addEventListener("click", function() {
-      showModal("#modal-notification"); 
+  if (notificationIcons) {
+    notificationIcons.forEach(notificationIcon => {
+      notificationIcon.addEventListener("click", function() {
+        showModal("#modal-notification");
+      });
     });
   }
-
+  
   //FOURTH
 
   //// indique
