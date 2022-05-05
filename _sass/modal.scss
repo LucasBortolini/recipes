@@ -9,7 +9,7 @@ section.myModal-wrapper {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  background-color: #1c558c80;
+  background-color: #00000099;
 
   .close {
     border-radius: 100%;
@@ -18,11 +18,11 @@ section.myModal-wrapper {
     font-weight: normal;
     opacity: 1;
     position: absolute;
-    right: 3px;
-    top: 185px;
+    right: 2px;
+    top: 84px;
 
     @media (min-width: 576px) {
-      margin-top: 24px;
+      margin-top: 36px;
       position: relative;
       transform: translate(-50%, -50%);
     }
@@ -43,15 +43,16 @@ section.myModal-wrapper {
   }
 
   .myModal {
-    max-width: 532px;
+    min-height: 300px;
+    max-width: 562px;
     width: 95%;
-    margin-top: 200px;
+    margin-top: 96px;
     overflow: auto;
     background-image: url("images/bgmodal.jpg");
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
-    background-color: #f7f7f7;
+    background-color: #E3E3E2;
     border-radius: 20px;
     box-shadow: 1px 2px 1px #AAA;
     display: flex;
@@ -63,7 +64,7 @@ section.myModal-wrapper {
     @media (min-width: 576px) {
       height: 45vh;
       border-radius: 18px;
-      margin-top: 200px;
+      margin-top: 115px;
       height: auto;
       max-height: calc(100vh - 162px);
       justify-content: center;
@@ -94,7 +95,7 @@ section.myModal-wrapper {
     .input-group {
       input.form-control:not([type="submit"]),
       textarea.form-control {
-        box-shadow: inset 0.57px 3px 0px #E5E5E5;
+        box-shadow: inset 2px 4px 0px #00000030;
         height: 30px;
         font-size: 16px;
         color: #646464;
@@ -184,8 +185,14 @@ section.myModal-wrapper {
   .checkbox-position {
     height: 16px;
     width: 16px;
-    margin-top: 2px;
-    margin-right: 4px;
+    margin-top: 5px;
+    margin-right: 6px;
+  }
+  .email-modal {
+    .checkbox-position {
+      margin-top: 20px;
+      margin-right: 8px;
+    }
   }
 
   .modal-icon-whats {
@@ -205,7 +212,7 @@ section.myModal-wrapper {
   .modal-icon-email {
     z-index: -1; 
     background-color: #D50808;
-    margin-left: -14px;
+    margin-left: -18px;
     border-radius: 10px;
   }
 
@@ -221,6 +228,35 @@ section.myModal-wrapper {
     position: relative;
     z-index: 2;
     width: 25%;
+  }
 
+  .modal-img-notification {
+    position: relative;
+    z-index: 2;
+    width: 23%;
+  }
+
+  .modal-notification-text {
+    padding: 0 16px;
+
+    @media (min-width: 959px) {
+      padding: 0 28px;
+    }
+  }
+
+  .modal-indicate-text {
+    padding: 0;
+
+    @media (min-width: 959px) {
+      padding: 0 40px;
+    }
+  }
+
+  .modal-indicate-btn {
+    width: 40% !important;
+    
+    @media (min-width: 959px) {
+      width: 25% !important;
+    }
   }
 }

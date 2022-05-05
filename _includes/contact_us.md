@@ -1,10 +1,10 @@
 <div id="modal-contact-us" class="d-none myModal-content">
   <h1 class="header-title">Fale conosco</h1>
-  <p class="mt-2 mb-4">
+  <p class="text-center mt-3 mb-4">
     Loren Ipsun fale conosco texto exemplo
   </p>
-  <div class="mt-3 px-5">
-    <form id="contact-us" method="POST" action="{{ '/fale-conosco-erro.html' | relative_url }}">
+  <div class="mt-3 px-md-5">
+    <form id="contact-us" method="POST" action="{{ '/fale-conosco-erro.html' | relative_url }}" class="px-md-4">
       <div class="form">
         <div class="row">
           <div class="input-group col-6 mb-3 px-0">
@@ -21,8 +21,8 @@
           <div class="input-group col-12 mb-3 px-0">
             <textarea class="col form-control shadow-none" required placeholder="Mensagem" rows="4"></textarea>
           </div>
-          <div class="d-flex justify-content-end">
-            <div class="input-group mb-3 px-0 w-25">
+          <div class="d-flex justify-content-center">
+            <div class="input-group w-25 mb-3 mt-3 px-0">
               <input type="Submit" class="col form-control btn" required value="Enviar"/>
             </div>
           </div>

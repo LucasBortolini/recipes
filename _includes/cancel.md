@@ -1,4 +1,5 @@
-<div id="modal-cancel" class="d-none myModal-content px-5">
+<div id="modal-cancel" class="d-none myModal-content px-md-5">
+  <h1 class="header-title mt-0 mb-4">Descadastrar</h1>
   <p class="text-center">
     Para se descadastrar do site e cancelar o envio de receitas e promoções, preencha os campos abaixo:
   </p>

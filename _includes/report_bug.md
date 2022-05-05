@@ -1,10 +1,10 @@
-<div id="modal-report" class="d-none myModal-content px-5">
-  <h1 class="header-title">Reportar Erro</h1>
-  <p>
+<div id="modal-report" class="d-none myModal-content">
+  <h1 class="header-title">Comunicar Erro!</h1>
+  <p class="text-center mb-4">
     Se você encontrou algum problema em nosso sistema, por favor nos comunique preenchendo os campos abaixo
   </p>
-  <form action="{{ '/erro-reportado.html' | relative_url }}">
-    <div class="form">
+  <form action="{{ '/erro-reportado.html' | relative_url }}" class="px-md-5">
+    <div class="form px-md-3">
       <div class="row">
         <div class="input-group col-6 mb-3 px-0">
           <input type="text" class="col form-control shadow-none ml-3 mr-2" required placeholder="Nome"/>
@@ -20,8 +20,8 @@
         <div class="input-group col-12 mb-3 px-0">
           <textarea class="col form-control shadow-none" required placeholder="Descrição do problema" rows="4"></textarea>
         </div>
-        <div class="d-flex justify-content-end">
-          <div class="input-group mb-3 px-0 w-25">
+        <div class="d-flex justify-content-center">
+          <div class="input-group w-25 mb-3 mt-3 px-0">
             <input type="Submit" class="col form-control btn" required value="Enviar"/>
           </div>
         </div>
