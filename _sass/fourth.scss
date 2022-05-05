@@ -4,7 +4,7 @@
   border-top: 4px solid #EB9500;
   background-image: url("images/indique-mobile.jpg");
 
-  @media (min-width: 960px) {
+  @media (min-width: 959px) {
     background-image: url("images/indique.jpg");
   }
 
@@ -21,7 +21,7 @@
       padding: 0 64px;
     }
 
-    @media (min-width: 960px) {
+    @media (min-width: 959px) {
       font-size: 16px;
     }
   }
@@ -29,7 +29,7 @@
   br {
     display: none;
 
-    @media (min-width: 960px) {
+    @media (min-width: 959px) {
       display: block;
     }
   }
@@ -47,7 +47,7 @@
   h3 {
     display: none;
 
-    @media (min-width: 1080px) {
+    @media (min-width: 1079px) {
       display: block;
       font-size: 18px;
       margin-bottom: 0;
@@ -87,7 +87,7 @@
 
   }
 
-  @media (min-width: 960px){
+  @media (min-width: 959px){
     background-position: center;
     background-size: cover;
   }
@@ -120,7 +120,7 @@ input.form-control.btn.indicate-btn {
     padding-bottom: 154px;
   }
 
-  @media (min-width: 960px) {
+  @media (min-width: 959px) {
     padding-bottom: 0;
   }
 }

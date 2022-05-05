@@ -60,7 +60,6 @@ button {
    }
 
    &.btn {
-    box-shadow: none;
     box-shadow: 0.38px 2px 0px #4F84C36E;
     background-color: #EB9500;
     height: 30px;
@@ -121,7 +120,7 @@ input[type=number] {
     padding-top: 2px;
   }
 
-  @media (min-width: 960px) {
+  @media (min-width: 959px) {
     border-bottom: 4px solid #EB9500;
 
     .card-1 {

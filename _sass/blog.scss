@@ -46,7 +46,7 @@
   .input-group input.form-control.btn {
     height: 36px;
 
-    @media (min-width: 960px) {
+    @media (min-width: 959px) {
       height: 50px;
     }
   }
@@ -55,7 +55,7 @@
     width: 320px;
     height: auto;
 
-    @media (min-width: 960px) {
+    @media (min-width: 959px) {
       width: auto;
       height: auto;
     }
@@ -64,13 +64,13 @@
   .btn-more {
     width: 50%;
 
-    @media (min-width: 960px) {
+    @media (min-width: 959px) {
       width: 25%;
     }
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 959px) {
   .line-blog {
     &::after {
       display: none;

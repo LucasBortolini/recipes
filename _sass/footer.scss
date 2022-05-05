@@ -152,7 +152,7 @@
   img {
     display: none;
 
-    @media (min-width: 960px) {
+    @media (min-width: 959px) {
       display: block;
       bottom: -530px;
       right: 40px;
@@ -193,7 +193,7 @@
 	margin-bottom: 0;
   margin-bottom: 0rem;
 
-  @media (min-width: 414px) {
+  @media (min-width: 413px) {
     font-size: .9rem;
   }
 }
