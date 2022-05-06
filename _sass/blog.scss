@@ -41,8 +41,10 @@
   a {
     text-decoration: none;
 
-    &:hover {
-      background-color: #EB9500;
+    @media (min-width: 579px) {
+      &:hover {
+        background-color: #EB9500;
+      }
     }
   }
 
