@@ -146,13 +146,14 @@
 
 .footer-2 {
 	background-color: #2F2E2A;
-  
+
   .section-wrapper {
     min-height: 64px;
   }
 
   img {
     display: none;
+    z-index: 20;
 
     @media (min-width: 959px) {
       display: block;
