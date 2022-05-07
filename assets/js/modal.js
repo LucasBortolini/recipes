@@ -67,6 +67,17 @@ document.addEventListener("DOMContentLoaded", function(event) {
       });
     });
   }
+
+  //// Phone
+  const phoneIcons = document.querySelectorAll(".phone-icon");
+
+  if (phoneIcons) {
+    phoneIcons.forEach(phoneIcon => {
+      phoneIcon.addEventListener("click", function() {
+        showModal("#modal-phone");
+      });
+    });
+  }
   
   //FOURTH
 
