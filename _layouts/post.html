@@ -1,0 +1,111 @@
+---
+layout: base
+---
+
+{%- include header.html -%}
+<div class="blog-layout">
+  <div class="bg-banner bg-no-repeat">
+    <div class="d-flex justify-content-center mx-auto pt-4">
+      <div class="d-flex">
+        <a href="#">
+          <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe">
+        </a>
+      </div>
+    </div>
+    <div class="container-blog px-2 px-md-5 py-3">
+      <div class="d-flex flex-wrap justify-content-center justify-content-md-between flex-md-nowrap bg-white px-4 py-3">
+        <article>
+          <nav class="mb-3">
+            <a href="{{site.url}}" class="hover:text-black">Início</a>
+            <span class="mx-1">/</span> 
+            <span>blog</span>
+            <span class="mx-1">/</span>
+            <span id="breadcrumb">Título</span>
+          </nav>
+          <header class="mb-3">
+            <h1 id="recipe-title">
+              Title
+            </h1>
+            <img src="{{ 'assets/images/teste-blog.jpg' | relative_url }}" class="w-100" alt="batata">
+          </header>
+          {{ content }}
+        </article>
+      </div>
+    </div>
+    <section class="d-md-flex justify-content-md-center blog px-4">
+      <div class="col-12 col-md-3 pb-3 px-md-0 line-blog">
+        <a href="#" class="d-flex px-2">
+          <div class="w-25 py-3">
+            <img src="{{ 'assets/images/banner-index3.jpg' | relative_url }}" class="w-100 h-100" alt="">
+          </div>
+          <div class="d-flex flex-column pl-3 py-1">
+            <span>
+              24/03/2022
+            </span>
+            <h4>
+              Escondidinho de carne seca
+            </h4>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-md-3 pb-3 px-md-0 line-blog">
+        <a href="#" class="d-flex px-2">
+          <div class="w-25 py-3">
+            <img src="{{ 'assets/images/banner-index3.jpg' | relative_url }}" class="w-100 h-100" alt="">
+          </div>
+          <div class="d-flex flex-column pl-3 py-1">
+            <span>
+              24/03/2022
+            </span>
+            <h4>
+              Escondidinho de carne seca
+            </h4>
+          </div>
+        </a>
+      </div>
+      <div class="col-12 col-md-3 pb-3 px-md-0 line-blog">
+        <a href="#" class="d-flex px-2">
+          <div class="w-25 py-3">
+            <img src="{{ 'assets/images/banner-index3.jpg' | relative_url }}" class="w-100 h-100" alt="">
+          </div>
+          <div class="d-flex flex-column pl-3 py-1">
+            <span>
+              24/03/2022
+            </span>
+            <h4>
+              Escondidinho de carne seca
+            </h4>
+          </div>
+        </a>
+      </div>
+    </section>
+    <section class="d-flex social-blog mt-4 mt-md-0">
+      <span class="text-center mt-1">
+        Compartilhe:
+      </span>
+      <div class="">
+        <a href="{{ '#' | relative_url }}">
+          <img src="assets/images/whats-footer.png" class="px-1">
+        </a>
+        <a href="{{ '#' | relative_url }}">
+          <img src="assets/images/telegram-footer.png" class="px-1">
+        </a>
+        <a href="{{ '#' | relative_url }}">
+          <img src="assets/images/insta-footer.png" class="px-1">
+        </a>
+        <a href="{{ '#' | relative_url }}">
+          <img src="assets/images/face-footer.png" class="px-1">
+        </a>
+        <a href="{{ '#' | relative_url }}">
+          <img src="assets/images/twitter-footer.png" class="px-1">
+        </a>
+      </section>
+      <div class="d-flex justify-content-center mx-auto pt-5">
+        <div class="d-flex mb-3">
+          <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe">
+        </div>
+      </div>
+    </div>
+  </div>
+  {%- include sixth.html -%}
+  {%- include footer.html -%}
