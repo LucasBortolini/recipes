@@ -21,6 +21,14 @@ section.myModal-wrapper {
     right: 2px;
     top: 84px;
 
+    .hover-icon {
+      &:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+      } 
+    }
+
     @media (min-width: 576px) {
       margin-top: 36px;
       position: relative;
