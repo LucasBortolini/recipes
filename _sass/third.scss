@@ -32,6 +32,14 @@ section.third {
     }
   }
 
+  .hover-icon {
+    &:hover {
+      -webkit-transform: scale(0.9);
+      -ms-transform: scale(0.9);
+      transform: scale(0.9);
+    } 
+  }
+
   .icon-index {
     height: 28px;
     width: 30px;

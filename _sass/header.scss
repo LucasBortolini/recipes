@@ -10,6 +10,14 @@
     margin-bottom: 3px;
   }
 
+  .hover-icon {
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    } 
+  }
+
   .header-line {
     min-height: 96px;
     width: 100%;
