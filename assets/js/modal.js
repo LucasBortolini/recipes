@@ -3,25 +3,27 @@
 document.addEventListener("DOMContentLoaded", function(event) {
   // CONTATO
   const form  = document.getElementById('contact-us');
-
-  form.addEventListener('submit', (event) => {
-    fetch(form.action, {
-      method: form.method,
-      body: new URLSearchParams(new FormData(form)),
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded'
-      }
-    })
-    .then(function(response) {
-      if (response.status == 200) showModal("#modal-contact-us-success");
-      else showModal("#modal-contact-us-error");
-    })
-    .catch(function(error) {
-      console.log('Erro: ', error.message);
-      showModal("#modal-contact-us-error");
+  
+  if (form) {
+    form.addEventListener('submit', (event) => {
+      fetch(form.action, {
+        method: form.method,
+        body: new URLSearchParams(new FormData(form)),
+        headers: {
+          'Content-Type': 'application/x-www-form-urlencoded'
+        }
+      })
+      .then(function(response) {
+        if (response.status == 200) showModal("#modal-contact-us-success");
+        else showModal("#modal-contact-us-error");
+      })
+      .catch(function(error) {
+        console.log('Erro: ', error.message);
+        showModal("#modal-contact-us-error");
+      });
     });
-  });
- 
+  }
+
   // SOCIAL 
 
   //// whats

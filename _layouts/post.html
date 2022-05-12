@@ -79,33 +79,18 @@ layout: base
         </a>
       </div>
     </section>
-    <section class="d-flex social-blog mt-4 mt-md-0">
+    <section class="d-flex mt-4">
       <span class="text-center mt-1">
         Compartilhe:
       </span>
-      <div class="">
-        <a href="{{ '#' | relative_url }}">
-          <img src="assets/images/whats-footer.png" class="px-1">
-        </a>
-        <a href="{{ '#' | relative_url }}">
-          <img src="assets/images/telegram-footer.png" class="px-1">
-        </a>
-        <a href="{{ '#' | relative_url }}">
-          <img src="assets/images/insta-footer.png" class="px-1">
-        </a>
-        <a href="{{ '#' | relative_url }}">
-          <img src="assets/images/face-footer.png" class="px-1">
-        </a>
-        <a href="{{ '#' | relative_url }}">
-          <img src="assets/images/twitter-footer.png" class="px-1">
-        </a>
-      </section>
-      <div class="d-flex justify-content-center mx-auto pt-5">
-        <div class="d-flex mb-3">
-          <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe">
-        </div>
+    </section>
+    <div class="d-flex justify-content-center mx-auto pt-5">
+      <div class="d-flex mb-3">
+        <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe">
       </div>
     </div>
   </div>
-  {%- include sixth.html -%}
-  {%- include footer.html -%}
+</div>
+{%- include sixth.html -%}
+{%- include footer.html -%}
+{%- include modal.md -%}
