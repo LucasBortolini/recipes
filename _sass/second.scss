@@ -9,20 +9,23 @@ section.second {
     background-repeat: no-repeat;
   }
 
-  p {
+  .text-second {
     color: white;
     font-size: 14px;
     font-weight: bold;
-    padding-left: 126px;
+    padding-left: 139px;
     padding-bottom: 67px;
     padding-top: 70px;
     padding-right: 22px;
     margin-bottom: 0;
-    text-align: right;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
 
     @media (min-width: 383px) {
       font-size: 16px;
-      padding-left: 128px;
+      padding-left: 142px;
       padding-bottom: 67px;
       padding-top: 76px;
       padding-right: 24px;
@@ -59,6 +62,132 @@ section.second {
       padding-top: 54px;
       padding-right: 24px;
       margin-bottom: 23px;
+    }
+  }
+}
+
+@media (max-width: 579px) {
+  .css-typing-second p {
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .css-typing-second p:nth-child(1) {
+    width: 11.8em;
+    opacity: 0;
+    -webkit-animation: type .9s steps(40, end);
+    animation: type .9s steps(40, end);
+    -webkit-animation-delay: 2.7s;
+    animation-delay: 2.7s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing-second p:nth-child(2) {
+    width: 13.5em;
+    opacity: 0;
+    -webkit-animation: type2 .9s steps(40, end);
+    animation: type2 .9s steps(40, end);
+    -webkit-animation-delay: 3.6s;
+    animation-delay: 3.6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  .css-typing-second p:nth-child(3) {
+    width: 14.3em;
+    opacity: 0;
+    -webkit-animation: type3 .9s steps(40, end), blink .5s step-end infinite alternate;
+    animation: type3 .9s steps(40, end), blink .5s step-end infinite alternate;
+    -webkit-animation-delay: 4.5s;
+    animation-delay: 4.5s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      border: none;
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      border: none;
+      opacity: 1;
+    }
+  }
+
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
     }
   }
 }
