@@ -43,6 +43,10 @@
       list-style: none;
       padding-right: 4px;
     }
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   ul {
@@ -276,6 +280,10 @@ a.flip-animate {
     transform: rotateX(-90deg);
     transform-origin: 50% 0;
     text-align: center;
+  }
+
+  &:hover {
+    cursor: pointer;
   }
   
   &:hover span,
