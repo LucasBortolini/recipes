@@ -11,6 +11,14 @@ section.myModal-wrapper {
   align-items: flex-start;
   background-color: #00000099;
 
+  button {
+    &:hover {
+      -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+      transform: scale(1.1);
+    }
+  }
+
   .close {
     border-radius: 100%;
     width: 34px;
