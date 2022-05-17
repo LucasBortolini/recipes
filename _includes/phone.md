@@ -1,14 +1,14 @@
 <div id="modal-phone" class="d-none myModal-content px-md-3">
   <div class="row">
     <h3 class="header-title text-md-left d-md-none my-0 px-2 px-md-0 mt-3 mt-md-5">
-      Participe ods nossos grupos e receba diariamente receitas especialmente selecionadas pelos nossos chefs!
+      Participe dos nossos grupos e receba diariamente receitas especialmente selecionadas pelos nossos chefs!
     </h3>
     <div class="col-md-6 d-flex justify-content-center px-md-0 mt-4 mt-md-0">
       <img src="{{ 'assets/images/phone.png'  | relative_url }}" class=" h-100">
     </div>
     <div class="col-md-5 px-md-0">
       <h3 class="header-title text-center text-md-left my-0 mt-5 d-none d-md-flex">
-        Participe ods nossos grupos e receba diariamente receitas especialmente selecionadas pelos nossos chefs!
+        Participe dos nossos grupos e receba diariamente receitas especialmente selecionadas pelos nossos chefs!
       </h3>
       <div class="inner-text">
         <p class="text-modal-phone mt-3">
