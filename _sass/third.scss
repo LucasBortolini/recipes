@@ -113,3 +113,285 @@ section.third {
     }
   }
 }
+
+// animation 1
+
+.css-typing-third p {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing-third p:nth-child(1) {
+  width: 10em;
+  opacity: 0;
+  -webkit-animation: type .9s steps(40, end);
+  animation: type .9s steps(40, end);
+  -webkit-animation-delay: 5.4s;
+  animation-delay: 5.4s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 7.4s;
+    animation-delay: 7.4s;
+  }
+}
+
+.css-typing-third p:nth-child(2) {
+  width: 10em;
+  opacity: 0;
+  -webkit-animation: type2 .9s steps(40, end);
+  animation: type2 .9s steps(40, end);
+  -webkit-animation-delay: 6.3s;
+  animation-delay: 6.3s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 8.3s;
+    animation-delay: 8.3s;
+  }
+}
+
+.css-typing-third p:nth-child(3) {
+  width: 9.9em;
+  opacity: 0;
+  -webkit-animation: type3 .9s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 .9s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 7.2s;
+  animation-delay: 7.2s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 9.2s;
+    animation-delay: 9.2s;
+  }
+}
+
+.css-typing-third p:nth-child(4) {
+  width: 9.9em;
+  opacity: 0;
+  -webkit-animation: type4 .9s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type4 .9s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 8.1s;
+  animation-delay: 8.1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 10.1s;
+    animation-delay: 10.1s;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    border: none;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    border: none;
+    opacity: 1;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type3 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type4 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
+
+// animation 2
+
+.css-typing-third-2 p {
+  white-space: nowrap;
+  overflow: hidden;
+}
+.css-typing-third-2 p:nth-child(1) {
+  width: 9.9em;
+  opacity: 0;
+  -webkit-animation: type .9s steps(40, end);
+  animation: type .9s steps(40, end);
+  -webkit-animation-delay: 9s;
+  animation-delay: 9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 11s;
+    animation-delay: 11s;
+  }
+}
+
+.css-typing-third-2 p:nth-child(2) {
+  width: 9.9em;
+  opacity: 0;
+  -webkit-animation: type2 .9s steps(40, end);
+  animation: type2 .9s steps(40, end);
+  -webkit-animation-delay: 9.9s;
+  animation-delay: 9.9s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+
+  @media (min-width: 959px) {
+    -webkit-animation-delay: 11.9s;
+    animation-delay: 11.9s;
+  }
+}
+
+@keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    border: none;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes type {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    border: none;
+    opacity: 1;
+  }
+}
+
+@keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@-webkit-keyframes type2 {
+  0% {
+    width: 0;
+  }
+  1% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+    border: none;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+@-webkit-keyframes blink {
+  50% {
+    border-color: tranparent;
+  }
+}
