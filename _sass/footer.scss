@@ -249,7 +249,7 @@
 a {
   color: #333;
   text-decoration: none;
-  transition: color 0.3s;
+  transition: color 0.1s;
   outline: none;
 }
 
@@ -265,7 +265,7 @@ a.flip-animate {
     position: relative;
     display: inline-block;
     padding: 0;    
-    transition: transform 0.3s;
+    transition: transform 0.1s;
     transform-origin: 50% 0;
     transform-style: preserve-3d;
   }
@@ -277,7 +277,7 @@ a.flip-animate {
     width: 100%;
     height: 100%;
     content: attr(data-hover);
-    transition: color 0.3s;
+    transition: color 0.1s;
     transform: rotateX(-90deg);
     transform-origin: 50% 0;
     text-align: center;
@@ -294,6 +294,6 @@ a.flip-animate {
   
   &:hover span:before,
   &:focus span:before {
-    color: rgb(47, 46, 42);
+    color: rgb(235, 149, 0);
   }
 }
