@@ -66,8 +66,12 @@
     height: auto;
 
     @media (min-width: 959px) {
-      width: auto;
+      width: 100%;
       height: auto;
+    }
+
+    @media (min-width: 1079px) {
+      width: auto;
     }
   }
 
