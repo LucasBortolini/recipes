@@ -12,6 +12,8 @@ section.myModal-wrapper {
   background-color: #00000099;
 
   button {
+    outline: none;
+    
     &:hover {
       -webkit-transform: scale(1.1);
       -ms-transform: scale(1.1);
