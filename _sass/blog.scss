@@ -38,6 +38,20 @@
     margin-bottom: 0;
   }
 
+  img {
+    width: 320px;
+    height: auto;
+
+    @media (min-width: 959px) {
+      width: 100%;
+      height: auto;
+    }
+
+    @media (min-width: 1079px) {
+      width: auto;
+    }
+  }
+
   a {
     text-decoration: none;
 
@@ -53,25 +67,17 @@
     font-size: 15px;
   }
 
+  input {
+    &:hover {
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+  }
+
   .input-group input.form-control.btn {
     height: 36px;
 
     @media (min-width: 959px) {
       height: 50px;
-    }
-  }
-
-  img {
-    width: 320px;
-    height: auto;
-
-    @media (min-width: 959px) {
-      width: 100%;
-      height: auto;
-    }
-
-    @media (min-width: 1079px) {
-      width: auto;
     }
   }
 
