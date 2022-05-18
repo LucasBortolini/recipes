@@ -77,48 +77,48 @@ section.second {
 .css-typing-second p:nth-child(1) {
   width: 11.8em;
   opacity: 0;
-  -webkit-animation: type .9s steps(40, end);
-  animation: type .9s steps(40, end);
-  -webkit-animation-delay: 2.7s;
-  animation-delay: 2.7s;
+  -webkit-animation: type .3s steps(40, end);
+  animation: type .3s steps(40, end);
+  -webkit-animation-delay: .9s;
+  animation-delay: .9s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 4.7s;
-    animation-delay: 4.7s;
+    -webkit-animation-delay: 2.9s;
+    animation-delay: 2.9s;
   }
 }
 
 .css-typing-second p:nth-child(2) {
   width: 13.5em;
   opacity: 0;
-  -webkit-animation: type2 .9s steps(40, end);
-  animation: type2 .9s steps(40, end);
-  -webkit-animation-delay: 3.6s;
-  animation-delay: 3.6s;
+  -webkit-animation: type2 .3s steps(40, end);
+  animation: type2 .3s steps(40, end);
+  -webkit-animation-delay: 1.2s;
+  animation-delay: 1.2s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 5.6s;
-    animation-delay: 5.6s;
+    -webkit-animation-delay: 3.2s;
+    animation-delay: 3.2s;
   }
 }
 
 .css-typing-second p:nth-child(3) {
   width: 14.3em;
   opacity: 0;
-  -webkit-animation: type3 .9s steps(40, end), blink .5s step-end infinite alternate;
-  animation: type3 .9s steps(40, end), blink .5s step-end infinite alternate;
-  -webkit-animation-delay: 4.5s;
-  animation-delay: 4.5s;
+  -webkit-animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
+  animation: type3 .3s steps(40, end), blink .5s step-end infinite alternate;
+  -webkit-animation-delay: 1.5s;
+  animation-delay: 1.5s;
   -webkit-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
 
   @media (min-width: 959px) {
-    -webkit-animation-delay: 6.5s;
-    animation-delay: 6.5s;
+    -webkit-animation-delay: 3.5s;
+    animation-delay: 3.5s;
   }
 }
 
