@@ -28,7 +28,7 @@ section.third {
     }
 
     @media (min-width: 959px) {
-      font-size: 11px;
+      font-size: 12px;
     }
   }
 
@@ -82,34 +82,40 @@ section.third {
     @media (min-width: 1079px) {
       height: 208px;
     }
+  }
 
+  .line-height-text {
+    line-height: 1;
   }
 
   .text-wrapper {
     padding-right: 132px;
-    padding-left: 108px;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-left: 100px;
+    padding-top: 28px;
+    padding-bottom: 20px;
 
     @media (min-width: 383px) {
       padding-left: 128px;
     }
 
     @media (min-width: 413px) {
-      padding-left: 144px;
+      padding-left: 136px;
       margin-right: 8px;
+      margin-bottom: 4px;
     }
 
     @media (min-width: 427px) {
-      padding-left: 148px;
+      padding-left: 144px;
       margin-right: 8px;
+      margin-bottom: 8px
     }
 
     @media (min-width: 959px) {
       padding-right: 132px;
-      padding-left: 87px;
-      padding-top: 3px;
-      margin-right: 0;
+      padding-left: 64px;
+      padding-top: 6px;
+      padding-bottom: 3px;
+      margin-right: 0; 
     }
   }
 }
