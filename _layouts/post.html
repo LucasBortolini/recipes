@@ -18,7 +18,7 @@ layout: base
           <nav class="mb-3">
             <a href="{{site.url}}" class="hover:text-black">Início</a>
             <span class="mx-1">/</span> 
-            <span>blog</span>
+            <span>data</span>
             <span class="mx-1">/</span>
             <span id="breadcrumb">Título</span>
           </nav>
@@ -32,65 +32,10 @@ layout: base
         </article>
       </div>
     </div>
-    <section class="d-md-flex justify-content-md-center blog px-4">
-      <div class="col-12 col-md-3 pb-3 px-md-0 line-blog">
-        <a href="#" class="d-flex px-2">
-          <div class="w-25 py-3">
-            <img src="{{ 'assets/images/banner-index3.jpg' | relative_url }}" class="w-100 h-100" alt="">
-          </div>
-          <div class="d-flex flex-column pl-3 py-1">
-            <span>
-              24/03/2022
-            </span>
-            <h4>
-              Escondidinho de carne seca
-            </h4>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-md-3 pb-3 px-md-0 line-blog">
-        <a href="#" class="d-flex px-2">
-          <div class="w-25 py-3">
-            <img src="{{ 'assets/images/banner-index3.jpg' | relative_url }}" class="w-100 h-100" alt="">
-          </div>
-          <div class="d-flex flex-column pl-3 py-1">
-            <span>
-              24/03/2022
-            </span>
-            <h4>
-              Escondidinho de carne seca
-            </h4>
-          </div>
-        </a>
-      </div>
-      <div class="col-12 col-md-3 pb-3 px-md-0 line-blog">
-        <a href="#" class="d-flex px-2">
-          <div class="w-25 py-3">
-            <img src="{{ 'assets/images/banner-index3.jpg' | relative_url }}" class="w-100 h-100" alt="">
-          </div>
-          <div class="d-flex flex-column pl-3 py-1">
-            <span>
-              24/03/2022
-            </span>
-            <h4>
-              Escondidinho de carne seca
-            </h4>
-          </div>
-        </a>
-      </div>
-    </section>
-    <section class="d-flex mt-4">
-      <span class="text-center mt-1">
-        Compartilhe:
-      </span>
-    </section>
-    <div class="d-flex justify-content-center mx-auto pt-5">
-      <div class="d-flex mb-3">
-        <img src="{{ 'assets/images/banner-get.jpg' | relative_url }}" class="banner-recipe">
-      </div>
-    </div>
+    {%- include blog.html -%}
   </div>
 </div>
+{%- include fourth.html -%}
 {%- include sixth.html -%}
 {%- include footer.html -%}
 {%- include modal.md -%}

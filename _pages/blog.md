@@ -19,16 +19,6 @@ permalink: /receita
           </p>
         </li>
       </ul>
-      <span>
-        subtítulo 2
-      </span>
-      <ul class="mt-3 pl-3">
-        <li>
-          <p>
-            a
-          </p>
-        </li>
-      </ul>
     </div>
     <div class="list-blog col-md-9">
       <h2 class="font-weight-bold mb-3">
@@ -44,19 +34,11 @@ permalink: /receita
           </p>
         </li>
       </ul>
-      <span>
-        subtítulo 2
-      </span>
-      <ul class="my-0 pl-3">
-        <li>
-          <p>
-            a
-          </p>
-        </li>
-      </ul>
     </div>  
   </div>
-  <h3 class="mb-0">
-    Outras Receitas
-  </h3>
+  <div class="d-flex mt-4">
+    <span class="text-center mt-1">
+      Compartilhe:
+    </span>
+  </div>
 </section>
