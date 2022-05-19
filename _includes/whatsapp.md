@@ -26,7 +26,7 @@
     <div class="d-flex justify-content-center">
       <button type="submit">
         <img src="{{ 'assets/images/modal-whats.png'  | relative_url }}" class="modal-img w-25">
-        <span class="modal-icon-whats text-white font-weight-bold py-1 px-4">Entrar no Grupo</span>
+        <span class="modal-icon-whats font-weight-bold font-hover py-1 px-4">Entrar no Grupo</span>
       </button>
     </div>
   </form>

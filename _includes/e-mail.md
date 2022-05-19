@@ -22,7 +22,7 @@
     <div class="d-flex justify-content-center pt-2">
       <button type="submit">
         <img src="{{ 'assets/images/modal-mail.png'  | relative_url }}" class="modal-img w-25">
-        <span class="modal-icon-email text-white font-weight-bold py-2 px-4">Receber por E-mail</span>
+        <span class="modal-icon-email font-hover-mail font-weight-bold py-2 px-4">Receber por E-mail</span>
       </button>
     </div>
   </form>

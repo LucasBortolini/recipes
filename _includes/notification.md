@@ -10,7 +10,7 @@
     <div class="d-flex justify-content-center pt-2">
       <button type="submit">
         <img src="{{ 'assets/images/modal-notification.png'  | relative_url }}" class="modal-img-notification">
-        <span class="modal-icon-notification text-white font-weight-bold py-1 px-4">Receber Notificação</span>
+        <span class="modal-icon-notification font-hover font-weight-bold py-1 px-4">Receber Notificação</span>
       </button>
     </div>
   </form>

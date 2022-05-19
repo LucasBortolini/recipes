@@ -13,11 +13,23 @@ section.myModal-wrapper {
 
   button {
     outline: none;
-    
+  }
+
+  .font-hover {
+    color: #F7F7F7;
+    cursor: pointer;
+
     &:hover {
-      -webkit-transform: scale(1.1);
-      -ms-transform: scale(1.1);
-      transform: scale(1.1);
+      color: #2F2E2A;
+    }
+  }
+
+  .font-hover-mail {
+    color: #F7F7F7;
+    cursor: pointer;
+
+    &:hover {
+      color: #EB9500;
     }
   }
 
